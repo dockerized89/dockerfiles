@@ -8,7 +8,9 @@
 # 	ansible all -m ping
 #
 FROM alpine:latest
+MAINTAINER Erik Johansson <erik.johansson89@gmail.com>
 LABEL maintainer "Erik Johansson <erik.johansson89@gmail.com>"
+LABEL version 0.1
 
 RUN builddeps=' \
 		python-dev \
