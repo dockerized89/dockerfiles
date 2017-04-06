@@ -13,4 +13,3 @@ Example Usage:
 
     docker run dockerized89/nmap -v -sn 192.168.0.0/24
 
- 
