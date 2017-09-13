@@ -1,3 +1,8 @@
+set -x
+
+USERNAME=dockerized
+
+
 #!/bin/bash
 set -e
 

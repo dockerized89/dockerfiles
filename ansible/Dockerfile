@@ -9,9 +9,8 @@
 #
 FROM alpine:latest
 MAINTAINER Erik Johansson <erik.johansson89@gmail.com>
-LABEL maintainer "Erik Johansson <erik.johansson89@gmail.com>"
-LABEL version 0.1
 
+ADD VERSION .
 RUN builddeps=' \
 		python-dev \
 		py2-pip \
